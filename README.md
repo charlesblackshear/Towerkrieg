@@ -1,7 +1,7 @@
 # Towerkrieg
 #### A strategy game in the tradition of chess.
 
-![](name-of-giphy.gif)
+![](tkrieg_main_shot.gif)
 
 (project description)
 
