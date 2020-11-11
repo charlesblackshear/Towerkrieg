@@ -4,7 +4,7 @@
 ![](tkrieg_main_shot.gif)
 
 Although an enjoyable game in its current state, Towerkrieg is intended to serve as a testbed for ML algorithms I am developing.
-The current build is stable but the game engine itself is still being tested. Additionally, this readme.md is under construction.
+The current installation is stable but the game engine itself continues to be tested. Additionally, this readme.md is under construction.
 
 
 ## Getting Started
@@ -21,7 +21,11 @@ Download into a single project folder in your favorite Python IDE.
 ## Match Rules
 The objective of Towerkrieg is to destroy your opponent’s only tower. 
 
-A tower is a ring of stones oriented in a 3x3 square area. A player can create new towers as the player’s remaining game pieces allow.
+A tower is a ring of stones oriented in a 3x3 square area: 
+
+![](towerkrieg_images/tower_piece.png)
+
+A player can create new towers as the player’s remaining game pieces allow.
 
 A player’s “piece” is a 3x3 square area that contains only stones of the player’s color and no stones of the player’s opponent. Proposed pieces with mixed color stones or no stones (empty squares only) are invalid. 
 
