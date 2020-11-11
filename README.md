@@ -35,9 +35,11 @@ To clarify, consider the piece’s peripheral squares with respect to the cardin
 
 This piece can move northwest (NW), NE, SW or SE:
 
-![](images/demo_piece_1.png)
+![](towerkrieg_images/demo_piece_1.png)
 
-This piece can move N, S, W or E. Note that a center stone is not required to define a piece.
+This piece can move N, S, W or E. Note that a center stone is not required to define a piece:
+
+![](towerkrieg_images/demo_piece_2.png)
 
 ### Magnitude of Movement
 
@@ -45,14 +47,17 @@ The movement of a piece stops when an opponent’s stone blocks its path. This c
 
 A piece with a center stone can move any unobstructed distance.
 
-This piece can move any unobstructed distance NW, NE, SW or SE.
+This piece can move any unobstructed distance NW, W, SW, NE or SE:
+
+![](towerkrieg_images/demo_piece_3.png)
 
 A piece without a center stone can move a maximum of 3 unobstructed squares (fewer squares are permitted).
 
-This piece can move any unobstructed distance N, W or E.
+This piece can move 1, 2 or 3 unobstructed squares N, W or E:
+
+![](towerkrieg_images/demo_piece_4.png)
 
 Squares in the border can be included in the selection of a piece but any stones that end up in the border squares of the game board are eliminated after every move.
-
 
 
 ## Contributing
